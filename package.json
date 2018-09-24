@@ -2,7 +2,7 @@
   "name": "openevse",
   "version": "1.0.0",
   "description": "Node.JS library for comunicting with OpenEVSE over serial or HTTP",
-  "main": "main/openevse.js",
+  "main": "lib/openevse.js",
   "files": [
     "lib/",
     "LICENSE"

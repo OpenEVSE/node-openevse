@@ -1,0 +1,35 @@
+{
+  "name": "openevse",
+  "version": "1.0.0",
+  "description": "Node.JS library for comunicting with OpenEVSE over serial or HTTP",
+  "main": "main/openevse.js",
+  "files": [
+    "lib/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "mocha --reporter spec"
+  },
+  "standard": {
+    "ignore": [
+      "coverage/**",
+      "node_modules/**",
+      "bower_components/**"
+    ]
+  },
+  "keywords": [],
+  "author": "Jeremy Poulter <jeremy@bigjungle.net>",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^4.16.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "pre-commit": "^1.1.1"
+  }
+}

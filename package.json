@@ -31,5 +31,17 @@
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "pre-commit": "^1.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremypoulter/node-openevse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeremypoulter/node-openevse/issues"
+  },
+  "homepage": "https://github.com/jeremypoulter/node-openevse#readme"
 }

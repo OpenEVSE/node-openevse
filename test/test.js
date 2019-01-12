@@ -1,6 +1,7 @@
 "use strict";
 
-var expect = require("chai").expect;
+var chai = require("chai")
+  , expect = chai.expect;
 var openevse = require("../lib/openevse");
 
 describe("#openevse", function() {
@@ -21,4 +22,11 @@ describe("#openevse", function() {
     });
   });
 
+  it("should return errors", function() {
+    var evse = openevse.connect("simulator");
+    evse._request(["XX"], function () {
+    }).error(function (err) {
+      expect(err.type).to.equal("OperationFailed");
+    });
+  });
 });

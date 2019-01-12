@@ -22,6 +22,7 @@
   "author": "Jeremy Poulter <jeremy@bigjungle.net>",
   "license": "ISC",
   "dependencies": {
+    "debug": "^4.1.1",
     "serialport": "^6.2.0"
   },
   "devDependencies": {

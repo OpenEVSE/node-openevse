@@ -29,7 +29,7 @@ MIT license
 [npm-url]: https://npmjs.org/package/openevse
 [downloads-image]: https://img.shields.io/npm/dm/openevse.svg?style=flat
 [downloads-url]: https://npmjs.org/package/openevse
-[travis-image]: https://img.shields.io/travis/jeremypoulter/node-openevse.svg?style=flat
-[travis-url]: https://travis-ci.org/jeremypoulter/node-openevse
-[coveralls-image]: https://img.shields.io/coveralls/jeremypoulter/node-openevse.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/jeremypoulter/node-openevse?branch=master
+[travis-image]: https://img.shields.io/travis/openevse/node-openevse.svg?style=flat
+[travis-url]: https://travis-ci.org/openevse/node-openevse
+[coveralls-image]: https://img.shields.io/coveralls/openevse/node-openevse.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/openevse/node-openevse?branch=master

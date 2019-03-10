@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremypoulter/node-openevse.git"
+    "url": "git+https://github.com/openevse/node-openevse.git"
   },
   "bugs": {
-    "url": "https://github.com/jeremypoulter/node-openevse/issues"
+    "url": "https://github.com/openevse/node-openevse/issues"
   },
-  "homepage": "https://github.com/jeremypoulter/node-openevse#readme"
+  "homepage": "https://github.com/openevse/node-openevse#readme"
 }

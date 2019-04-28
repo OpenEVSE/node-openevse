@@ -1,8 +1,10 @@
+/* jshint node: true, esversion: 6*/
+
 "use strict";
 
-var chai = require("chai")
-  , expect = chai.expect;
-var openevse = require("../lib/openevse");
+const chai = require("chai");
+const expect = chai.expect;
+const openevse = require("../lib/openevse");
 
 describe("#openevse", function() {
   it("should get the flags state", function() {

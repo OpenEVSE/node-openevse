@@ -223,9 +223,7 @@ describe("#openevse (LCD)", function() {
       done(false);
     }, 0, 50, "Hello World").error(function (err) {
       expect(err.type).to.equal("OperationFailed");
-      done().error((err) => {
-        done(err);
-      });
+      done();
     });
   });
 

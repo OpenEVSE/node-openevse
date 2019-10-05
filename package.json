@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "lint": "eslint lib",
-    "test": "mocha --reporter spec",
+    "test": "mocha",
     "cover": "nyc mocha",
     "coveralls": "nyc --reporter=text-lcov mocha | coveralls"
   },
@@ -32,7 +32,6 @@
     "coveralls": "^3.0.2",
     "eslint": "^4.16.0",
     "eslint-plugin-mocha": "^5.2.0",
-    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^14.1.0",
